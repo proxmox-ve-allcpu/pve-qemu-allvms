@@ -27,7 +27,7 @@ $(BUILDDIR): keycodemapdb | submodule
 	cp -a debian $(BUILDDIR)/debian
 	rm -rf $(BUILDDIR)/ui/keycodemapdb
 	cp -a keycodemapdb $(BUILDDIR)/ui/
-	echo "git clone git://git.proxmox.com/git/pve-qemu.git\\ngit checkout $(GITVERSION)" > $(BUILDDIR)/debian/SOURCE
+	echo "git clone git@github.com:proxmox-ve-allcpu/pve-qemu-allvms.git\\ngit checkout $(GITVERSION)" > $(BUILDDIR)/debian/SOURCE
 
 .PHONY: deb kvm
 deb kvm: $(DEBS)
