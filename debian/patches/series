@@ -1,11 +1,12 @@
-extra/0001-qemu-sockets-fix-unix-socket-path-copy-again.patch
-extra/0002-monitor-qmp-fix-race-with-clients-disconnecting-earl.patch
-extra/0003-monitor-hmp-add-support-for-flag-argument-with-value.patch
-extra/0004-monitor-refactor-set-expire_password-and-allow-VNC-d.patch
-extra/0005-monitor-hmp-correctly-invert-password-argument-detec.patch
-extra/0006-qxl-fix-pre-save-logic.patch
-extra/0007-block-mirror-fix-NULL-pointer-dereference-in-mirror_.patch
-extra/0008-block-introduce-max_hw_iov-for-use-in-scsi-generic.patch
+extra/0001-monitor-qmp-fix-race-with-clients-disconnecting-earl.patch
+extra/0002-monitor-hmp-add-support-for-flag-argument-with-value.patch
+extra/0003-monitor-refactor-set-expire_password-and-allow-VNC-d.patch
+extra/0004-block-rbd-fix-handling-of-holes-in-.bdrv_co_block_st.patch
+extra/0005-block-rbd-workaround-for-ceph-issue-53784.patch
+extra/0006-block-io-Update-BSC-only-if-want_zero-is-true.patch
+extra/0007-block-nbd-Delete-reconnect-delay-timer-when-done.patch
+extra/0008-block-nbd-Assert-there-are-no-timers-when-closed.patch
+extra/0009-block-nbd-Move-s-ioc-on-AioContext-change.patch
 bitmap-mirror/0001-drive-mirror-add-support-for-sync-bitmap-mode-never.patch
 bitmap-mirror/0002-drive-mirror-add-support-for-conditional-and-always-.patch
 bitmap-mirror/0003-mirror-add-check-for-bitmap-mode-without-bitmap.patch
@@ -60,3 +61,4 @@ pve/0045-block-io-accept-NULL-qiov-in-bdrv_pad_request.patch
 pve/0046-block-add-alloc-track-driver.patch
 pve/0047-PVE-whitelist-invalid-QAPI-names-for-backwards-compa.patch
 pve/0048-PVE-savevm-async-register-yank-before-migration_inco.patch
+pve/0049-qemu-img-dd-add-l-option-for-loading-a-snapshot.patch

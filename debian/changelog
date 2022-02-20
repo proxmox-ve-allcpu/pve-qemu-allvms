@@ -1,3 +1,22 @@
+pve-qemu-kvm (6.2.0-1) bullseye; urgency=medium
+
+  * update to QEMU stable release 6.2.0
+
+ -- Proxmox Support Team <support@proxmox.com>  Thu, 17 Feb 2022 06:23:14 +0100
+
+pve-qemu-kvm (6.1.1-2) bullseye; urgency=medium
+
+  * vma: create: register all streams before entering coroutines to avoid that
+    an early stream starts to write already before all got registered.
+
+ -- Proxmox Support Team <support@proxmox.com>  Mon, 14 Feb 2022 15:53:15 +0100
+
+pve-qemu-kvm (6.1.1-1) bullseye; urgency=medium
+
+  * update to 6.1.1 stable release
+
+ -- Proxmox Support Team <support@proxmox.com>  Thu, 13 Jan 2022 10:57:43 +0100
+
 pve-qemu-kvm (6.1.0-3-allvms) bullseye; urgency=medium
 
   * Append initial supported for other vm types
